@@ -1,0 +1,26 @@
+#bg-container {
+    /* Text zentrieren */
+    text-align:center;
+
+    /* Inhalt vertikal mittig platzieren */
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 650px;
+}
+
+.inside {
+    /* Container horizontal mittig platzieren */
+    margin: auto;
+}
+
+p {
+  font-family:verdana;
+  font-size: 11px;
+  color: #999;
+}
